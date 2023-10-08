@@ -1,0 +1,65 @@
+.bigred {
+  font-family:"Courier New";
+  font-style: italic;
+  font-size: xx-large;
+  color: red;
+ }
+ body { place-items: unset !important;
+ }
+ @media only screen and (max-width: 600px) {
+  .card {
+  margin-left: 2vw;
+  margin-top: 10vh !important;
+  width: 96vw;
+  }
+ }
+ .scenario-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 10%;
+  margin-top: 2em;
+  margin-left: 20%;
+ }
+ .scenario-message {
+  color: white;
+  width: 80%;
+  margin: 2px;
+  padding: 1em;
+  font-size: smaller;
+  font-weight: bold;
+  
+ }
+   
+ .usersList {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 2vw;
+  box-sizing: border-box;
+  height: calc(50vh);
+  overflow-y: auto;
+  overflow-x: auto;
+ }
+ body {
+  place-items: unset !important;
+ }
+ .card {
+  margin-left: 5vw;
+  margin-top: 15vh;
+  width: 90vw;
+ }
+ .userBubble {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  position: relative;
+  padding: 4vw;
+  width: 50vw;
+  margin-bottom: -1em;
+  border-radius: 10px;
+  left: -3vw;
+  color: white;
+ } 
+ .right{
+left: 15vw;  
+ }
